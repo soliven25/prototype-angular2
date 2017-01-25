@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses.component';
 import { AuthorsComponent } from './authors.component';
+import { StarComponent } from './star.component';
 import { CourseService } from './course.service';
 import { AuthorsService } from './authors.service';
 import { AutoGrowDirective } from './auto-grow.directive';
@@ -15,6 +16,7 @@ import { AutoGrowDirective } from './auto-grow.directive';
     AppComponent,
     CoursesComponent,
     AuthorsComponent,
+    StarComponent,
     AutoGrowDirective
   ],
   imports: [
