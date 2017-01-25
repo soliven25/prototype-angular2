@@ -14,13 +14,13 @@ export class AutoGrowDirective {
 
     onFocus(){
         console.log("auto grow onFocus");
-        this.renderer.setElementStyle(this.el.nativeElement, 'width', '200');
+        this.renderer.setElementStyle(this.el.nativeElement, 'width', '200px');
         this.renderer.setElementStyle(this.el.nativeElement, 'backgroundColor', 'blue');
     }
 
     onBlur(){
         console.log("auto grow onBlur");
-        this.renderer.setElementStyle(this.el.nativeElement, 'width', '120');
+        this.renderer.setElementStyle(this.el.nativeElement, 'width', '120px');
         this.renderer.setElementStyle(this.el.nativeElement, 'backgroundColor', 'white');
     }
 }
