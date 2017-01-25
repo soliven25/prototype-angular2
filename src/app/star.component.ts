@@ -4,16 +4,16 @@ import { Component } from '@angular/core';
     selector: 'star-icon',
     template: `
         <i class="glyphicon" (click)="onClick()"
-           [class.glyphicon-star-empty]="isClicked"
-           [class.glyphicon-star]="!isClicked"
+           [class.glyphicon-star-empty]="isFilled"
+           [class.glyphicon-star]="!isFilled"
         > </i>
         `
 })
 
 export class StarComponent {
-    isClicked = false;
+    isFilled = false;
     onClick(){
-        console.log("is Clicked" + this.isClicked);
-        this.isClicked?this.isClicked = false:this.isClicked = true;
+        console.log("isFilled" + this.isFilled);
+        this.isFilled = !this.isFilled;
     }
 }
