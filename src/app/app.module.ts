@@ -8,12 +8,14 @@ import { CoursesComponent } from './courses.component';
 import { AuthorsComponent } from './authors.component';
 import { CourseService } from './course.service';
 import { AuthorsService } from './authors.service';
+import { AutoGrowDirective } from './auto-grow.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
-    AuthorsComponent
+    AuthorsComponent,
+    AutoGrowDirective
   ],
   imports: [
     BrowserModule,
