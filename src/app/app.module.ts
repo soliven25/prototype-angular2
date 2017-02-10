@@ -11,6 +11,7 @@ import { CourseService } from './course.service';
 import { AuthorsService } from './authors.service';
 import { AutoGrowDirective } from './auto-grow.directive';
 import { LikeComponent } from './like.component';
+import { VoterComponent } from './voter.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LikeComponent } from './like.component';
     AuthorsComponent,
     StarComponent,
     AutoGrowDirective,
-    LikeComponent
+    LikeComponent,
+    VoterComponent
   ],
   imports: [
     BrowserModule,
